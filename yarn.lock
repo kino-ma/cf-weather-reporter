@@ -327,6 +327,13 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@openmeteo/sdk@^1.4.0":
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/@openmeteo/sdk/-/sdk-1.11.3.tgz#e727d99caf7ad292862f30e8efd36d27552eae94"
+  integrity sha512-tEE/UOqfpiIKLHE+y7DNcjp+CddCCjgsvW+1neL+CBlUPl2RhD60+cvjmh2z5Q6oZNFLCSzT+Qekyxq+4Z6MnQ==
+  dependencies:
+    flatbuffers "^24.3.7"
+
 "@rollup/rollup-android-arm-eabi@4.14.0":
   version "4.14.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.14.0.tgz#57936f50d0335e2e7bfac496d209606fa516add4"
@@ -724,6 +731,16 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+flatbuffers@^23.5.26:
+  version "23.5.26"
+  resolved "https://registry.yarnpkg.com/flatbuffers/-/flatbuffers-23.5.26.tgz#01358e272a61239f0faf3bfbe4e014f3ace9d746"
+  integrity sha512-vE+SI9vrJDwi1oETtTIFldC/o9GsVKRM+s6EL0nQgxXlYV1Vc4Tk30hj4xGICftInKQKj1F3up2n8UbIVobISQ==
+
+flatbuffers@^24.3.7:
+  version "24.3.25"
+  resolved "https://registry.yarnpkg.com/flatbuffers/-/flatbuffers-24.3.25.tgz#e2f92259ba8aa53acd0af7844afb7c7eb95e7089"
+  integrity sha512-3HDgPbgiwWMI9zVB7VYBHaMrbOO7Gm0v+yD2FV/sCKj+9NDeVL7BOBYUuhWAQGKWOzBo8S9WdMvV0eixO233XQ==
+
 fsevents@~2.3.2, fsevents@~2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
@@ -937,6 +954,14 @@ onetime@^6.0.0:
   integrity sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==
   dependencies:
     mimic-fn "^4.0.0"
+
+openmeteo@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/openmeteo/-/openmeteo-1.1.3.tgz#bacbfc2de23e86635da8d61060071199f688b502"
+  integrity sha512-f4ycmEA9rnhH4mPkDSLAuZ9dCu33nZ2bP7pLUJmZp2YYAuIDrGDIWU/VXQPmG48l5s+vw0VcnH9+CMqL57oADQ==
+  dependencies:
+    "@openmeteo/sdk" "^1.4.0"
+    flatbuffers "^23.5.26"
 
 p-limit@^5.0.0:
   version "5.0.0"
